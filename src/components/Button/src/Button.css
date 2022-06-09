@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Base styles
+ */
+
+.btn {
+  @apply rounded-xl pt-1.5 pb-1.5 pr-10 pl-10 font-medium;
+}
+
+.btn__default {
+  @apply bg-primary-blue text-white;
+}
+
+.btn__disabled {
+  @apply rounded-xl bg-primary-gray pb-1.5 pr-10 pl-10 pt-1.5 font-medium text-secondary-gray;
+}
+
+.btn__black {
+  @apply bg-black text-white;
+}
+
+.btn__white {
+  @apply bg-white text-black;
+}
